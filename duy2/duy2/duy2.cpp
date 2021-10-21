@@ -25,7 +25,7 @@ struct SinhVien
 	int ma;
 	struct HoTen hoVaTen;
 	int tuoi;
-	char gioitinh;
+	char gioitinh[10];
 
 };
 int main()
