@@ -2,10 +2,38 @@
 //
 
 #include <iostream>
+#include <string>
 
+using namespace std;
+
+struct HoTen 
+{
+	char ho[30];
+	char ten[30];
+	char dem[30];
+   
+};
+struct Diem
+{
+	float toan;
+	float van; 
+	float anh;
+
+};
+struct SinhVien
+{
+	int ma;
+	struct HoTen hoVaTen;
+	int tuoi;
+	char gioitinh;
+
+};
 int main()
 {
-    std::cout << "Hello World!\n";
+ 
+	{
+
+	};
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
