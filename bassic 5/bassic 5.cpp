@@ -29,10 +29,7 @@ int main()
         cout << "enter klass: ";
         getline(cin, klass[i]); \
 
-        /*cout << name[i] << '\n';
-        cout << age[i] << '\n';
-        cout << klass[i] << '\n';*/
-
+        
         cout << " enter mark: ";
         cin >> toan[i] >> ly[i] >> hoa[i];
         cin.ignore(1000, '\n');
@@ -46,6 +43,9 @@ int main()
         cout << "diem trung binh: " << diemtrungbinh[i] << '\n';
 
 
+    /*    cout << name[i] << '\n';
+        cout << age[i] << '\n';
+        cout << klass[i] << '\n';*/
     }
 }
 
