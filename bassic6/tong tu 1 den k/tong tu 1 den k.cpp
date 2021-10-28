@@ -1,19 +1,22 @@
-// nhap 2 so nguyen m,n.cpp : This file contains the 'main' function. Program execution begins and ends there.
+// tong tu 1 den k.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
 #include <iostream>
 
-#include <string>
-
 using namespace std;
-
 
 int main()
 {
-	int x;
-	int y;
+    int k;
+    int x=0;
+    cout << "nhap so nguyen k" << endl;
+    cin >> k;
 
+    for (int i = 1; i <= k; i++) {
+            x = x  + i;
 
+        }
+    cout << "tong tu 1 den k la: " << x;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
